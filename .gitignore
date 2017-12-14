@@ -1,4 +1,5 @@
 *.env
 src/node_modules
 .idea
+src/.env
 

@@ -1,0 +1,24 @@
+{
+  "name": "ringcentral-aisense",
+  "version": "0.0.1",
+  "description": "RingCentral AISense demo with RingCentral",
+  "scripts": {
+    "start": "node app",
+    "test": "./node_modules/mocha/bin/mocha test/**/*-test.js --reporter spec"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-handlebars": "latest",
+    "form-data": "^2.3.1",
+    "handlebars": "^4.0.11",
+    "mustache-express": "^1.2.5",
+    "node-uuid": "^1.4.8",
+    "request": "^2.83.0",
+    "ringcentral": "^2.0.6",
+    "unirest": "^0.5.1",
+    "uuid": "^3.1.0"
+  }
+}
